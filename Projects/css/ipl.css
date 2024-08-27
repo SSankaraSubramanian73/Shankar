@@ -1,0 +1,59 @@
+body{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ipl-score-card{
+    border: 1px solid black;
+    background-color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.score-summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.team-name{
+    text-align: center;
+}
+
+.score-total-team{
+    margin-top: 10px;
+}
+
+.overs, .match-number{
+    color: grey;
+}
+
+.winning-summary{
+    text-align: center;
+    line-height: 32px;
+}
+
+.highlights{
+    display: flex;
+}
+
+.highlights iframe{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.tabs{
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 10px;
+    box-shadow: 5px 5px grey;
+}
+
+.tabs button{
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    padding: 15px;
+}

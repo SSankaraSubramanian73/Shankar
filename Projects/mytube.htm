@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Homepage Clone</title>
+  <!-- Linking Unicons For Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="css/mytube.css">
+</head>
+<body class="sidebar-hidden">
+  <div class="container">
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="images/mytube.jpeg" alt="Logo" class="logo-image">
+            <h2 class="logo-text">MyTube</h2>
+          </a>
+        </div>
+        
+        <div class="nav-section nav-center">
+          <form action="#" class="search-form">
+            <input type="search" placeholder="Search" class="search-input" required>
+            <button class="nav-button search-button">
+              <i class="uil uil-search"></i>
+            </button>
+          </form>
+          <button class="nav-button mic-button">
+            <i class="uil uil-microphone"></i>
+          </button>
+        </div>
+        
+        <div class="nav-section nav-right">
+          <button class="nav-button search-button">
+            <i class="uil uil-search"></i>
+          </button>
+          <button class="nav-button theme-button">
+            <i class="uil uil-moon"></i>
+          </button>
+          <img src="images/dp.jpeg" alt="User Image" class="user-image">
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Main Layout -->
+    <main class="main-layout">
+      <div class="screen-overlay"></div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="images/mytube.jpeg" alt="Logo" class="logo-image">
+            <h2 class="logo-text">MyTube</h2>
+          </a>
+        </div>
+  
+        <div class="links-container">
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-estate"></i> Home
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-video"></i> Shorts
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-tv-retro"></i> Subscriptions
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <h4 class="section-title">You</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-user-square"></i> Your channel
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-history"></i> History
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-clock"></i> Watch later
+            </a>
+          </div>
+          <div class="section-separator"></div>
+          
+          <div class="link-section">
+            <h4 class="section-title">Explore</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-fire"></i> Trending
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-music"></i> Music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-basketball"></i> Gaming
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-trophy"></i> Sports
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <h4 class="section-title">More from MyTube</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-shield-plus"></i> MyTube Plus
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-shield-short"></i> MyTube Shorts
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-headphones-alt"></i> MyTube Music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-airplay"></i> MyTube Kids
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-setting"></i> Settings
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-file-medical-alt"></i> Report
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-question-circle"></i> Help
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-exclamation-triangle"></i> Feedback
+            </a>
+          </div>
+        </div>
+      </aside>
+  
+      <div class="content-wrapper">
+        <!-- Category List -->
+        <div class="category-list">
+          <button class="category-button active">All</button>
+          <button class="category-button">Website</button>
+          <button class="category-button">Music</button>
+          <button class="category-button">Gaming</button>
+          <button class="category-button">HTML5</button>
+          <button class="category-button">CSS3</button>
+          <button class="category-button">JavaScript</button>
+          <button class="category-button">TypeScript</button>
+          <button class="category-button">Coding</button>
+          <button class="category-button">Entertainment</button>
+          <button class="category-button">Movies</button>
+          <button class="category-button">Python</button>
+          <button class="category-button">Web design</button>
+          <button class="category-button">Front-end Developement</button>
+          <button class="category-button">Express.js</button>
+        </div>
+        
+        <!-- Video List -->
+        <div class="video-list">
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/snake-game.png" class="thumbnail">
+              <p class="duration">26:02</p>
+            </div>
+            <div class="video-info">
+              <img src="images/dp.jpeg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Create 3D Snake Gaming Using Python</h2>
+                <p class="channel-name">Anjaan Shankar</p>
+                <p class="views">3K Views • 1 year ago</p>
+              </div>
+            </div>
+          </a>
+<!--
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/todolist.png" class="thumbnail">
+              <p class="duration">14:27</p>
+            </div>
+            <div class="video-info">
+              <img src="images/dp.jpeg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">How to make Responsive To Do List App in HTML CSS & JavaScript</h2>
+                <p class="channel-name">Anjaan Shankar</p>
+                <p class="views">2K Views • 1 month ago</p>
+              </div>
+            </div>
+          </a>
+        -->
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/LoginForm.png" class="thumbnail">
+              <p class="duration">23:07</p>
+            </div>
+            <div class="video-info">
+              <img src="images/Shankardp.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Create A Responsive Website with Login & Registration Form in HTML CSS and JavaScript</h2>
+                <p class="channel-name">Arun</p>
+                <p class="views">1K Views • 1 month ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/CSK.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">10:23</p>
+            </div>
+            <div class="video-info">
+              <img src="images/CSK.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Super Champions!! &#x1F973; &#128155; #whistlepodu #ipl2023</h2>
+                <p class="channel-name">CSK</p>
+                <p class="views">15K Views • 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/kanguva.jpg" class="thumbnail">
+              <p class="duration">2:36</p>
+            </div>
+            <div class="video-info">
+              <img src="images/suriya.jpeg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Kanguva official trailer.</h2>
+                <p class="channel-name">Suriya</p>
+                <p class="views">24K Views • 1 month ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/dhoniad.jpg" class="thumbnail">
+              <p class="duration">07:07</p>
+            </div>
+            <div class="video-info">
+              <img src="images/Dhoni.jpg" class="icon">
+              <div class="video-details">
+                <h2 class="title">Here Gulf Advertisement 2021!</h2>
+                <p class="channel-name">Dhoni</p>
+                <p class="views">49.9K Views • 3 years ago</p>
+              </div>
+            </div>
+          </a>
+        <!--
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/q4RgxiDM6v0/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">37:13</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/uITV5E7auiZMDD_BwhVRJMHXXY6qQc0GqBgVyP5LWYTmeRlUP2Dc945UlIbODvztd96ReOts=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">How to make Responsive Image Slider in HTML CSS and JavaScript</h2>
+                <p class="channel-name">CodingLab</p>
+                <p class="views">1M Views • 1 year ago</p>
+              </div>
+            </div>
+          </a>
+        
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/DLs1X9T1GcY/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">9:27</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Create Text Typing Effect in HTML CSS & Vanilla JavaScript</h2>
+                <p class="channel-name">Raina</p>
+                <p class="views">17K Views • 10 months ago</p>
+              </div>
+            </div>
+          </a>
+        -->
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/fbchampions.webp" class="thumbnail">
+              <p class="duration">07:02</p>
+            </div>
+            <div class="video-info">
+              <img src="images/ronaldodp.jpeg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Champions of this time</h2>
+                <p class="channel-name">Ronaldo</p>
+                <p class="views">157K Views • 5 years ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/datayaan.jpeg" class="thumbnail">
+              <p class="duration">0:49</p>
+            </div>
+            <div class="video-info">
+              <img src="images/akka.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">What is Routing? #Datayaan #ITSolutions #technology</h2>
+                <p class="channel-name">Narmatha</p>
+                <p class="views">1K Views • 2 weeks ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/AriharasudhanPortfolio.png" class="thumbnail">
+              <p class="duration">02:23:10</p>
+            </div>
+            <div class="video-info">
+              <img src="images/ariharasudhandp.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Create Responsive Portfolio</h2>
+                <p class="channel-name">AriHaraSudhan</p>
+                <p class="views">7K Views • 2 years ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/calculator.png" class="thumbnail">
+              <p class="duration">11:07</p>
+            </div>
+            <div class="video-info">
+              <img src="images/Shankardp.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Build A Responsive Calculator in HTML CSS & JavaScript</h2>
+                <p class="channel-name">Arun</p>
+                <p class="views">1K Views • 1 Month ago</p>
+              </div>
+            </div>
+          </a>
+          <!--
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/0_Lwi5ucGwM/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">39:43</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Build A Currency Converter using ReactJS</h2>
+                <p class="channel-name">Einstein</p>
+                <p class="views">7.2K • 2 weeks ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/AyV954yKRSw/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:37:13</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/uITV5E7auiZMDD_BwhVRJMHXXY6qQc0GqBgVyP5LWYTmeRlUP2Dc945UlIbODvztd96ReOts=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Responsive Admin Dashboard Panel in HTML CSS and JavaScript</h2>
+                <p class="channel-name">CodingLab</p>
+                <p class="views">161K Views • 1 year ago</p>
+              </div>
+            </div>
+          </a>-->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Linking custom script -->
+  <script src="js/mytube.js"></script>
+</body>
+</html>
