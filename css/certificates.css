@@ -1,0 +1,153 @@
+/* Basic reset and full-height setup */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the PDF viewer */
+div {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide any overflow */
+}
+
+/* Make the embedded PDF responsive */
+.angular {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.nodejs {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.cyber {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.identitygovernanceandadministration{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.internship{
+    width: 100%;
+	height: 90%;
+	border: none;
+
+}
+
+/* Container for the image */
+.images {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide any overflow */
+}
+
+/* Make the image responsive */
+.aiforindia {
+    max-width: 100%; /* Ensures the image does not exceed the container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+.python {
+    max-width: 100%; /* Ensures the image does not exceed the container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+.viksitbharath{
+	max-width: 100%; /* Ensures the image does not exceed the container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    /* Styles for devices with a max width of 768px (tablets and smaller) */
+    .angular {
+        width: 90%; /* Slightly reduced width for smaller screens */
+        height: 90%; /* Slightly reduced height for smaller screens */
+    }
+
+
+   .aiforindia {
+        max-width: 80%; /* Reduces width for tablets and smaller devices */
+    }
+
+    .viksitbharath{
+    	max-width: 80%;
+    }
+
+    .internship{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    /* Styles for devices with a max width of 480px (phones) */
+    .angular {
+        width: 95%; /* Further reduced width for very small screens */
+        height: 95%; /* Further reduced height for very small screens */
+    }
+
+    .aiforindia {
+        max-width: 90%; /* Further reduces width for mobile phones */
+    }
+
+    .viksitbharath{
+    	max-width: 90%;
+    }
+
+    .internship{
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+}
+
+
+/*--Preloader--*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid yellow; /* yellow */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#content {
+    display: none;
+}
+
