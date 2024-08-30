@@ -9867,4 +9867,6 @@ svg {
   100% { transform: rotate(360deg); }
 }
 
-
+.projects-para{
+  text-align:justify;
+}
