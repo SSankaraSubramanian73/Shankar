@@ -9839,7 +9839,7 @@ svg {
         width: 100%;
     }
   
-    /*--Preloader--*/
+    /*--Preloader--
 #preloader {
   position: auto;
   top: 0;
@@ -9852,7 +9852,7 @@ svg {
   justify-content: center;
   align-items: center;
 }
-
+*/
 .spinner {
   border: 8px solid #f3f3f3; /* Light grey */
   border-top: 8px solid yellow; /* yellow */
