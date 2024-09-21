@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
     
     // Simple username and password validation (for demonstration purposes)
-    if (username === 'admin' && password === 'password123') {
+    if (username === 'arun247' && password === '2478') {
         // Redirect to a different page if credentials are correct
         console.log(window.location.href);
         window.location.href = 'ecom.html';
