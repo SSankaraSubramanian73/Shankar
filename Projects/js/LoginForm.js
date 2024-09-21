@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if (username === 'arun247' && password === '2478') {
         // Redirect to a different page if credentials are correct
         console.log(window.location.href);
-        window.location.href = 'Shankar.htm';
+        window.location.href = 'index.html';
     } else {
         // Display an error message or handle invalid credentials
         alert('Invalid username or password.');
