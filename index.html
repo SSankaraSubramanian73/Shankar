@@ -518,7 +518,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">Angular</h3>
-                <p>Learn about Angular by Infosys Springboard</p>
+                <p>Learn about <strong>Angular</strong> by Infosys Springboard</p>
               </div>
             </div>
           </div>
@@ -535,7 +535,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">NODE.JS</h3>
-                <p>Learn about NODE.JS by Infosys Springboard</p>
+                <p>Learn about <strong>NODE.JS</strong> by Infosys Springboard</p>
               </div>
             </div>
           </div>
@@ -553,7 +553,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">Introduction for Python</h3>
-                <p>Completed Introduction for Python by Guvi</p>
+                <p>Completed Introduction for <strong>Python</strong> by Guvi</p>
               </div>
             </div>
           </div>
@@ -570,7 +570,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">A.I For India 2.0</h3>
-                <p>Completed A.I for India 2.0 by Guvi</p>
+                <p>Completed <strong>A.I for India 2.0</strong> by Guvi</p>
               </div>
             </div>
           </div>
@@ -587,7 +587,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">Identity Governance and Administration</h3>
-                <p>Completed Identity Governance and Administration by Infosys SpringBoard</p>
+                <p>Completed <strong>Identity Governance and Administration</strong> by Infosys SpringBoard</p>
               </div>
             </div>
           </div>
@@ -622,7 +622,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">Front-end Development - HTML</h3>
-                <p>Learn about Hyper Text Markup Language in Basics by Great Learning</p>
+                <p>Learn about <strong>Hyper Text Markup Language</strong> in Basics by Great Learning</p>
               </div>
             </div>
           </div>
@@ -639,7 +639,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">Front-end Developement - CSS</h3>
-                <p>Learn about Basic Cascading Style Sheet by Great Learning</p>
+                <p>Learn about Basic <strong>Cascading Style Sheet</strong> by Great Learning</p>
               </div>
             </div>
           </div>
@@ -656,7 +656,7 @@
 				  </p>
 			  </div>
 			  <h3 class="heading">JavaScript</h3>
-			  <p>Learn about JavaScript by Great Learning</p>
+			  <p>Learn about <strong>JavaScript</strong> by Great Learning</p>
 			</div>
 		  </div>
 		</div>
@@ -673,7 +673,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">Cyber Security Audits</h3>
-                <p>Learn about Cyber Security Audits by Infosys Springboard</p>
+                <p>Learn about <strong> Cyber Security Audits </strong>by Infosys Springboard</p>
               </div>
             </div>
           </div>
@@ -690,7 +690,7 @@
 	                </p>
                 </div>
                 <h3 class="heading">Thread Modeling</h3>
-                <p>Learn about Thread Modeling by Infosys Springboard</p>
+                <p>Learn about <strong>Thread Modeling</strong> by Infosys Springboard</p>
               </div>
             </div>
           </div>
@@ -794,7 +794,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://1234567920">+91 9385727562</a></p>
+	            <p><a href="tel://9385727562">+91 9385727562</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -803,7 +803,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">sankarasubramanian73@gmail.com</a></p>
+	            <p><a href="mailto:sankarasubramanian73@gmail.com">sankarasubramanian73<br>@gmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -820,24 +820,35 @@
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
             <form action="https://api.web3forms.com/submit" method="POST" class="bg-light p-4 p-md-5 contact-form">
-              <input type="hidden" name="access_key" value="426be6e0-9ab5-4148-bb95-a00a37fc7b8e">
-		    
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
+    
+    <!-- Hidden field for Web3Forms access key -->
+    <input type="hidden" name="access_key" value="426be6e0-9ab5-4148-bb95-a00a37fc7b8e">
+    
+    <!-- Your Name field with name attribute -->
+    <div class="form-group">
+        <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+    </div>
+    
+    <!-- Your Email field with name attribute -->
+    <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+    </div>
+    
+    <!-- Subject field with name attribute -->
+    <div class="form-group">
+        <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+    </div>
+    
+    <!-- Message field with name attribute -->
+    <div class="form-group">
+        <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+    </div>
+    
+    <!-- Submit button -->
+    <div class="form-group">
+        <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+    </div>
+</form>
           
           </div>
 
