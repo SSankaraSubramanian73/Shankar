@@ -9838,7 +9838,7 @@ textarea.form-control {
     .card {
         width: 50%;
         height: 85px;
-        display: inline-block;
+        display: flex;
     }
   
     /*--Preloader--
