@@ -9837,9 +9837,12 @@ textarea.form-control {
 @media (max-width: 1000px) {
     .card {
         width: 50%;
-        height: 85px;
         display: flex;
     }
+  .card-image{
+    width: 50%;
+    height: 85px;
+  }
   
     /*--Preloader--
 #preloader {
