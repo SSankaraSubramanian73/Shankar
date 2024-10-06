@@ -9836,7 +9836,7 @@ textarea.form-control {
 
 @media (max-width: 1000px) {
     .card {
-        width: 100%;
+        width: 50%;
     }
   
     /*--Preloader--
