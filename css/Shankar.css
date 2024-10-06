@@ -9836,14 +9836,8 @@ textarea.form-control {
 
 @media (max-width: 1000px) {
     .card {
-        width: 50%;
-        display: inline-block;
-      
+        width: 100%;  
     }
-  .card-image{
-    width: 50%;
-    height: 85px;
-  }
   
     /*--Preloader--
 #preloader {
