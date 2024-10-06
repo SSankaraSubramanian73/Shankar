@@ -9838,6 +9838,7 @@ textarea.form-control {
     .card {
         width: 50%;
         display: flex;
+      flex:flex-wrap;
     }
   .card-image{
     width: 50%;
