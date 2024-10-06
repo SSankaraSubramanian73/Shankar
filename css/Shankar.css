@@ -9837,8 +9837,8 @@ textarea.form-control {
 @media (max-width: 1000px) {
     .card {
         width: 50%;
-        display: flex;
-      flex:flex-wrap;
+        display: inline-block;
+      
     }
   .card-image{
     width: 50%;
