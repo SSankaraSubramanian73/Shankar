@@ -9793,9 +9793,9 @@ textarea.form-control {
 
 /*Card*/
 .card {
-    margin-inline: 7px;
     margin: 5px;
-    width: 350px;
+    width: 260px;
+  height: 200pt;
     padding: 10px;
     background: grey;
     border-radius: 10px;
@@ -9817,7 +9817,7 @@ textarea.form-control {
 
 .card-image {
     width: 100%;
-    height: 170pt;
+    height: 160pt;
 }
 
 .card-content {
@@ -9836,34 +9836,12 @@ textarea.form-control {
 
 @media (max-width: 1000px) {
     .card {
-        width: 100%;  
+        width: 30%;  
+      font-size: 13px;
     }
-  
-    /*--Preloader--
-#preloader {
-  position: auto;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.spinner {
-  border: 8px solid #f3f3f3; /* Light grey 
-  border-top: 8px solid yellow; /* yellow 
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); } */
+  .card-image{
+    width:100%;
+    height: 80pt;
+  }
 }
 
