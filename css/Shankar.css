@@ -9836,12 +9836,7 @@ textarea.form-control {
 
 @media (max-width: 1000px) {
     .card {
-        width: 50%;  
-      font-size: 13px;
+        width: 100%;
     }
-  .card-image{
-    width:100%;
-    height: 80pt;
-  }
 }
 
