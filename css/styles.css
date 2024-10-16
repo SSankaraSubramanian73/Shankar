@@ -9834,6 +9834,9 @@ textarea.form-control {
     color: #555;
 }
 
+.projects-para{
+  text-align:justify;
+}
 @media (max-width: 1000px) {
     .card {
         width: 100%;
