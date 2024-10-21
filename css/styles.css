@@ -9811,8 +9811,8 @@ textarea.form-control {
 
 .card:hover {
     transform: scale(1.05);
-    color: orange;
-    background: orangered;
+    color: black;
+    background: lightgrey;
 }
 
 .card-image {
